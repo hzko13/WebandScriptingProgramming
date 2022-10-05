@@ -1,0 +1,120 @@
+@charset "UTF-8"; 
+/* CSS Document */ 
+/* The body tag style applies to all elements on the page */ 
+body { 
+background-color: black; 
+font-family: Verdana, Geneva, Arial, sans-serif; 
+padding:0px; 
+margin:0px; 
+} 
+/* The wrapper ID style is used with a div tag to provide a 960px wide page */ 
+#wrapper { 
+width: 100%;height: 100%; 
+margin-left: auto; 
+margin-right: auto; 
+background-color:rgb(144, 128, 26) ; 
+} 
+/* The right-column ID style is floated right */ 
+#right-column { 
+float: left; 
+width: 100%;height: 100%; 
+background-color:LightGray; 
+} 
+  
+/* Defining a style for a set of tags separated by commas applies the style to 
+all tags */ 
+h1,h2,h3,h4,h5,h6,p,li { 
+margin-left:15px; 
+} 
+#footer { 
+height:50%; 
+background-color: #333;;
+color: rgb(254, 252, 252);;
+
+} 
+#footer h5 { 
+    color: rgb(254, 252, 252);;
+    } 
+    
+
+
+    /* Defining a style for a set of tags not separated by commas applies the style 
+    only to all tags within the preceding tag*/ 
+    #banner h1 { 
+    color: rgb(253, 253, 253); 
+    height: 20%;
+    font-size: 250;
+    } 
+    /* Advanced Web design relies on class or ID styles, never tables */ 
+    .box { 
+    height: 50%; 
+    width: 85%;float: left; 
+    background-color:LightGray;
+    margin: 15px; 
+    } 
+    /* This clear class style terminates float */ 
+    .clear{ 
+    clear: both; 
+    }
+    /* Add a black background color to the top navigation */
+    #banner {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+    #banner a {
+    float: left;
+    color: #f2f2f2;
+    margin-left:15%; 
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  #banner a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  #banner a.active {
+    background-color: #5204aa;
+    color: white;
+  }
+  /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+/* StyleD SUBMIT BUTTON */
+input[type=submit] {
+  background-color: #1e00c7;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse color */
+input[type=submit]:hover {
+  background-color: #4514c4;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #5204aa;
+  padding: 20px;
+}
+
+      
